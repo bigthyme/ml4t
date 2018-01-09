@@ -31,7 +31,8 @@ $ git clone https://github.com/bigthyme/ml4t.git
 $ cd cv
 $ docker build -t <image_name> <Dockerfile>
 $ docker run -it -v "$(pwd)":/app <image_name>
-# once inside, verify that the packages have been installed proper
+
+# once inside, verify that the packages have been installed properly via pip
 $ pip list --format=columns
 
 Package         Version
