@@ -1,11 +1,5 @@
 ## Docker Image for CS 7646
 
-TL;DR - This includes the following:
-python 2.7, numpy 1.13.x, scipy 0.19.1, matplotlib 2.0.2
-
-- Disclaimer: b/c we're running matplotlib in docker, `.show` doesn't work as expected.
-I've included an example_plot file to demostrate a workaround.
-
 This repo contains the required python environment for Georgia Tech's CS 7646 [Spring 2018 requirements](http://quantsoftware.gatech.edu/ML4T_Software_Installation). The total image size
 for this docker container is `~1.17 GB` but hopefully smaller after a few more iterations.
 
